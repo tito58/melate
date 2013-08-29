@@ -1,14 +1,19 @@
 {
-  "name": "application-name",
+  "name": "melate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.2.6",
+    "express": "*",
     "jade": "*",
     "stylus": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "nodemailer": "*",
+    "bcrypt": "*"
+  },
+  "engines": {
+    "node": "0.8.14"
   }
 }
